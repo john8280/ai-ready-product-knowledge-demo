@@ -1,0 +1,115 @@
+# AI-Ready AV Product Knowledge Demo
+
+This site contains structured AV equipment recommendations for DJs and small venues.
+
+## Purpose
+Demonstrate how product knowledge becomes SEO → AEO → AI Search → Customer Support → Sales Enablement through structured data and semantic markup.
+
+## Key Pages
+- `/`: Product listing with search and filtering
+- `/product/[id]`: Individual product details with schema markup
+- `/seo`: SEO optimization demonstration
+- `/aeo`: Answer Engine Optimization with FAQ structure
+- `/ai-knowledge`: AI knowledge graph and integration points
+
+## Product Categories
+- Powered PA Speakers
+- Subwoofers
+- Stage Monitors
+- Mixers
+- Wireless Microphones
+- Speaker Stands
+- Cables & Connectors
+- Complete Packages
+- Headphones
+
+## Sample Products
+1. PowerMax 15" Powered PA Speaker - 600W, ideal for 50-200 person venues
+2. DeepBass 18" Subwoofer - 1000W bass reinforcement
+3. StagePro 10" Stage Monitor - Wedge-shaped on-stage monitoring
+4. MixMaster 8-Channel Mixer - Professional analog mixing
+5. ProVoice Wireless Microphone System - UHF wireless with 100ft range
+6. StableStand Pro Speaker Stand - Heavy-duty adjustable stand
+7. ProGrade XLR Cable 25ft - Shielded balanced audio cable
+8. Small Venue PA Package - Complete 2-speaker system for small venues
+9. Outdoor Event DJ Setup - Full DJ system for 200-1000 people
+10. MonitorPro DJ Headphones - Professional closed-back DJ headphones
+
+## Structured Data
+Every product includes:
+- Schema.org Product markup with pricing and ratings
+- AggregateRating with review counts
+- FAQ schema for common questions
+- Semantic HTML structure
+- Meta tags for search engines
+
+## FAQ Coverage
+Each product answers common questions about:
+- Venue sizing and capacity recommendations
+- Setup and compatibility with other equipment
+- Use cases and applications
+- Technical specifications
+- Maintenance and care
+
+## Data Format
+Products are stored as JSON with:
+- id: Unique product identifier
+- name: Product name
+- category: Product category
+- description: Product description
+- useCase: Primary use cases
+- venueSize: Recommended venue capacity
+- power: Power output (watts)
+- inputs: Available input types (XLR, 1/4", RCA, etc.)
+- portability: Portability rating
+- bestFor: Target audience
+- compatibleAccessories: Related products
+- faqAnswers: Q&A pairs for AEO
+- schema: JSON-LD schema.org markup
+
+## Integration Points
+This demo can integrate with:
+- Search engines (Google, Bing) via schema markup
+- Answer engines (Perplexity, Claude, Gemini) via structured FAQ data
+- LLM systems via this llms.txt file
+- Customer support systems via FAQ database
+- Sales tools via product specifications
+- Knowledge graphs via semantic relationships
+
+## How to Use This Knowledge
+1. **For Search Engines**: Use schema.org markup in product pages for rich snippets
+2. **For Answer Engines**: Reference FAQ structure for direct answer extraction
+3. **For LLMs**: Use this file and product data for context and fine-tuning
+4. **For Customer Support**: Leverage FAQ database for chatbot training
+5. **For Sales**: Use product relationships for recommendation engines
+
+## Knowledge Graph Relationships
+- PA Speakers → Subwoofers (bass reinforcement)
+- Mixer → Microphones (input devices)
+- Speakers → Stands (positioning)
+- Equipment → Cables (connectivity)
+- Products → Packages (bundled solutions)
+
+## Venue Sizing Guide
+- 50-200 people: PowerMax 15" PA Speaker
+- 50-300 people: StagePro 10" Stage Monitor
+- 100-500 people: DeepBass 18" Subwoofer
+- 200-1000 people: Outdoor Event DJ Setup
+
+## Common Questions Answered
+- What speaker do I need for a 100-person event?
+- Do I need a subwoofer for a DJ setup?
+- What PA system works for outdoor gigs?
+- What wireless microphone system works for outdoor events?
+- What is a stage monitor used for?
+- What cable length do I need for my PA system?
+
+## Next Steps
+1. Explore individual product pages for full schema markup
+2. Review SEO View for search engine optimization
+3. Check AEO View for answer engine optimization
+4. Use this knowledge graph for AI training and fine-tuning
+5. Integrate product data with your systems
+
+## Contact & Attribution
+This is a demo project showcasing AI-ready product knowledge architecture. All products are fictional examples for demonstration purposes.

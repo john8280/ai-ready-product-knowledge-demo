@@ -1,0 +1,364 @@
+{
+  "products": [
+    {
+      "id": "pa-1",
+      "name": "PowerMax 15\" Powered PA Speaker",
+      "category": "Powered PA Speakers",
+      "description": "Compact yet powerful 15-inch powered PA speaker ideal for small to medium venues.",
+      "useCase": "Small venues, DJ setups, live performances",
+      "venueSize": "50–200 people",
+      "power": "600W",
+      "inputs": ["XLR", "1/4\" TS", "3.5mm aux"],
+      "portability": "High (wheels included)",
+      "bestFor": "Mobile DJs, small clubs, rehearsal spaces",
+      "compatibleAccessories": ["Microphone", "Speaker stand", "XLR cables", "Subwoofer"],
+      "faqAnswers": {
+        "q1": "What speaker do I need for a 100-person event?",
+        "a1": "The PowerMax 15\" is ideal for 100-person venues. Its 600W output and 15-inch woofer provide clear, punchy sound. Pair with a subwoofer for deeper bass.",
+        "q2": "Can I use this for outdoor events?",
+        "a2": "Yes, the PowerMax 15\" is weather-resistant and includes wheels for easy transport. However, outdoor use requires extra protection from rain."
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PowerMax 15\" Powered PA Speaker",
+        "category": "Audio Equipment",
+        "description": "Compact yet powerful 15-inch powered PA speaker ideal for small to medium venues.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "599"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "24"
+        }
+      }
+    },
+    {
+      "id": "sub-1",
+      "name": "DeepBass 18\" Subwoofer",
+      "category": "Subwoofers",
+      "description": "Powered 18-inch subwoofer delivering deep, controlled bass for any PA system.",
+      "useCase": "Bass reinforcement, DJ setups, live events",
+      "venueSize": "100–500 people",
+      "power": "1000W",
+      "inputs": ["XLR", "RCA"],
+      "portability": "Medium (dolly recommended)",
+      "bestFor": "DJs, clubs, outdoor events, large venues",
+      "compatibleAccessories": ["PA speakers", "XLR cables", "Subwoofer dolly", "Isolation pads"],
+      "faqAnswers": {
+        "q1": "Do I need a subwoofer for a DJ setup?",
+        "a1": "Not always required, but highly recommended. A subwoofer adds depth and impact, especially for electronic music and bass-heavy genres.",
+        "q2": "How do I connect a subwoofer to my PA system?",
+        "a2": "Connect via XLR or RCA cables from your mixer's subwoofer output. Most modern mixers have dedicated sub outputs."
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "DeepBass 18\" Subwoofer",
+        "category": "Audio Equipment",
+        "description": "Powered 18-inch subwoofer delivering deep, controlled bass for any PA system.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "899"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "ratingCount": "18"
+        }
+      }
+    },
+    {
+      "id": "monitor-1",
+      "name": "StagePro 10\" Stage Monitor",
+      "category": "Stage Monitors",
+      "description": "Wedge-shaped 10-inch stage monitor for on-stage sound reinforcement.",
+      "useCase": "Live performances, band rehearsals, stage monitoring",
+      "venueSize": "50–300 people",
+      "power": "400W",
+      "inputs": ["XLR", "1/4\" TS"],
+      "portability": "High (compact wedge design)",
+      "bestFor": "Bands, solo performers, rehearsal studios",
+      "compatibleAccessories": ["Microphone", "Monitor stand", "XLR cables", "Isolation pads"],
+      "faqAnswers": {
+        "q1": "What is a stage monitor used for?",
+        "a1": "Stage monitors let performers hear themselves on stage. They're angled toward the performer and connected to a separate monitor mix from the main PA.",
+        "q2": "Can I use a stage monitor as a main speaker?",
+        "a2": "Technically yes, but not recommended. Stage monitors are optimized for close-range listening; main PA speakers are designed for audience coverage."
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "StagePro 10\" Stage Monitor",
+        "category": "Audio Equipment",
+        "description": "Wedge-shaped 10-inch stage monitor for on-stage sound reinforcement.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "349"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "ratingCount": "12"
+        }
+      }
+    },
+    {
+      "id": "mixer-1",
+      "name": "MixMaster 8-Channel Mixer",
+      "category": "Mixers",
+      "description": "Professional 8-channel analog mixer with built-in effects and USB interface.",
+      "useCase": "DJ mixing, live sound, studio recording",
+      "venueSize": "Any",
+      "power": "AC powered",
+      "inputs": ["8x XLR/1/4\" combo", "USB"],
+      "portability": "High (compact, 5 lbs)",
+      "bestFor": "DJs, live sound engineers, content creators",
+      "compatibleAccessories": ["Microphone", "Headphones", "Turntables", "USB cables"],
+      "faqAnswers": {
+        "q1": "What mixer do I need for a small DJ setup?",
+        "a1": "The MixMaster 8-channel is perfect for beginners and small venues. It has enough channels for two turntables, a microphone, and auxiliary inputs.",
+        "q2": "Does this mixer have effects?",
+        "a2": "Yes, it includes built-in reverb, delay, and EQ on each channel. USB interface allows software effects as well."
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "MixMaster 8-Channel Mixer",
+        "category": "Audio Equipment",
+        "description": "Professional 8-channel analog mixer with built-in effects and USB interface.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "449"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "ratingCount": "31"
+        }
+      }
+    },
+    {
+      "id": "mic-1",
+      "name": "ProVoice Wireless Microphone System",
+      "category": "Wireless Microphones",
+      "description": "UHF wireless microphone system with dual-channel receiver and handheld transmitter.",
+      "useCase": "Live performances, presentations, DJ hosting",
+      "venueSize": "50–500 people",
+      "power": "2x AA batteries (transmitter), AC powered (receiver)",
+      "inputs": ["XLR output"],
+      "portability": "High (compact, 100ft range)",
+      "bestFor": "Performers, event hosts, DJs, presenters",
+      "compatibleAccessories": ["Microphone stand", "XLR cables", "Windscreen", "Replacement batteries"],
+      "faqAnswers": {
+        "q1": "What wireless microphone system works for outdoor events?",
+        "a1": "The ProVoice system operates on UHF frequencies with 100ft range, making it ideal for outdoor events. Ensure line-of-sight between transmitter and receiver.",
+        "q2": "How long do the batteries last?",
+        "a2": "Approximately 8 hours on a fresh set of AA batteries. Always carry spares for longer events."
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "ProVoice Wireless Microphone System",
+        "category": "Audio Equipment",
+        "description": "UHF wireless microphone system with dual-channel receiver and handheld transmitter.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "299"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "ratingCount": "22"
+        }
+      }
+    },
+    {
+      "id": "stand-1",
+      "name": "StableStand Pro Speaker Stand",
+      "category": "Speaker Stands",
+      "description": "Heavy-duty adjustable speaker stand with safety pin and cable management.",
+      "useCase": "Speaker positioning, live events, studios",
+      "venueSize": "Any",
+      "power": "N/A",
+      "inputs": ["N/A"],
+      "portability": "High (lightweight aluminum, 4 lbs)",
+      "bestFor": "DJs, live sound engineers, studios, event setups",
+      "compatibleAccessories": ["PA speakers", "Stage monitors", "Isolation pads", "Cable ties"],
+      "faqAnswers": {
+        "q1": "What height should I set my speaker stands?",
+        "a1": "Typically ear-level when seated (4–6 feet high). Adjust based on venue layout and audience positioning.",
+        "q2": "Do I need isolation pads under my speakers?",
+        "a2": "Yes, isolation pads reduce vibration transfer to the stand and floor, improving sound clarity and preventing feedback."
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "StableStand Pro Speaker Stand",
+        "category": "Audio Equipment",
+        "description": "Heavy-duty adjustable speaker stand with safety pin and cable management.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "79"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "45"
+        }
+      }
+    },
+    {
+      "id": "cable-1",
+      "name": "ProGrade XLR Cable 25ft",
+      "category": "Cables & Connectors",
+      "description": "Shielded XLR cable with gold-plated connectors and durable PVC jacket.",
+      "useCase": "Audio signal transmission, PA systems, studios",
+      "venueSize": "Any",
+      "power": "N/A",
+      "inputs": ["XLR male to female"],
+      "portability": "High (lightweight, coiled)",
+      "bestFor": "Any audio setup requiring reliable signal transmission",
+      "compatibleAccessories": ["Microphones", "Speakers", "Mixers", "Audio interfaces"],
+      "faqAnswers": {
+        "q1": "What cable length do I need for my PA system?",
+        "a1": "Use the shortest cable that reaches your equipment. Longer cables can introduce noise. The ProGrade 25ft is ideal for most small to medium venues.",
+        "q2": "What is the difference between XLR and 1/4\" cables?",
+        "a2": "XLR is balanced and preferred for long runs and professional audio. 1/4\" TS is unbalanced and suitable for shorter runs. 1/4\" TRS is balanced and a middle ground."
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "ProGrade XLR Cable 25ft",
+        "category": "Audio Equipment",
+        "description": "Shielded XLR cable with gold-plated connectors and durable PVC jacket.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "24.99"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "ratingCount": "67"
+        }
+      }
+    },
+    {
+      "id": "package-1",
+      "name": "Small Venue PA Package",
+      "category": "Complete Packages",
+      "description": "All-in-one PA system for small venues: 2x PA speakers, 1x mixer, 1x wireless mic, cables, and stands.",
+      "useCase": "Small clubs, rehearsal spaces, community events",
+      "venueSize": "50–200 people",
+      "power": "1200W total",
+      "inputs": ["Multiple XLR, 1/4\", 3.5mm"],
+      "portability": "Medium (requires vehicle)",
+      "bestFor": "Event organizers, small venues, mobile DJs",
+      "compatibleAccessories": ["Additional speakers", "Subwoofer", "Stage monitors", "Microphones"],
+      "faqAnswers": {
+        "q1": "What PA system works for a small venue?",
+        "a1": "The Small Venue PA Package includes everything needed: 2x 600W speakers, mixer, wireless mic, and cables. Perfect for 50–200 people.",
+        "q2": "Can I expand this system later?",
+        "a2": "Absolutely. Add a subwoofer for more bass, additional speakers for larger venues, or stage monitors for live performances."
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Small Venue PA Package",
+        "category": "Audio Equipment",
+        "description": "All-in-one PA system for small venues: 2x PA speakers, 1x mixer, 1x wireless mic, cables, and stands.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "1699"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "ratingCount": "14"
+        }
+      }
+    },
+    {
+      "id": "package-2",
+      "name": "Outdoor Event DJ Setup",
+      "category": "Complete Packages",
+      "description": "Portable DJ setup for outdoor events: 2x 15\" PA speakers, subwoofer, mixer, wireless mic, and all accessories.",
+      "useCase": "Outdoor parties, festivals, large events",
+      "venueSize": "200–1000 people",
+      "power": "2200W total",
+      "inputs": ["Multiple XLR, 1/4\", USB"],
+      "portability": "Medium (requires vehicle and setup time)",
+      "bestFor": "Professional DJs, event planners, outdoor venues",
+      "compatibleAccessories": ["Additional speakers", "Stage monitors", "Lighting equipment", "Microphones"],
+      "faqAnswers": {
+        "q1": "What PA system works for outdoor gigs?",
+        "a1": "The Outdoor Event DJ Setup includes 2x 15\" speakers, a 1000W subwoofer, and a professional mixer. Covers 200–1000 people with clear, punchy sound.",
+        "q2": "Is this system weather-resistant?",
+        "a2": "All speakers are weather-resistant, but use covers during rain. Protect the mixer and wireless receiver under a canopy or tent."
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Outdoor Event DJ Setup",
+        "category": "Audio Equipment",
+        "description": "Portable DJ setup for outdoor events: 2x 15\" PA speakers, subwoofer, mixer, wireless mic, and all accessories.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "2999"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "8"
+        }
+      }
+    },
+    {
+      "id": "headphones-1",
+      "name": "MonitorPro DJ Headphones",
+      "category": "Headphones",
+      "description": "Professional DJ headphones with closed-back design, 40mm drivers, and 3.5mm/1/4\" adapter.",
+      "useCase": "DJ monitoring, mixing, live performances",
+      "venueSize": "Any",
+      "power": "Passive",
+      "inputs": ["3.5mm jack", "1/4\" adapter included"],
+      "portability": "High (foldable, lightweight)",
+      "bestFor": "DJs, sound engineers, studio professionals",
+      "compatibleAccessories": ["Mixer", "Audio interface", "Replacement ear pads", "Carrying case"],
+      "faqAnswers": {
+        "q1": "What headphones should I use for DJ mixing?",
+        "a1": "The MonitorPro DJ Headphones are designed for DJs with accurate frequency response, closed-back isolation, and comfortable fit for long sessions.",
+        "q2": "Can I use these with my mixer?",
+        "a2": "Yes, they work with any mixer or audio interface. The included 1/4\" adapter lets you connect directly to professional equipment."
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "MonitorPro DJ Headphones",
+        "category": "Audio Equipment",
+        "description": "Professional DJ headphones with closed-back design, 40mm drivers, and 3.5mm/1/4\" adapter.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "199"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "28"
+        }
+      }
+    }
+  ]
+}
