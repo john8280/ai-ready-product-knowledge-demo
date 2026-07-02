@@ -128,5 +128,5 @@ This project is designed for deployment on GitHub Pages. To deploy:
 
 This demo serves as a foundational example of how to build AI-ready product knowledge. By focusing on structured data, semantic markup, and clear content organization, businesses can significantly enhance their discoverability across traditional search, answer engines, and emerging AI platforms. This approach not only improves customer experience but also streamlines internal operations for support and sales teams.
 
-**Author**: Manus AI
+**Author**: Marruffo AI
 **Date**: June 30, 2026
