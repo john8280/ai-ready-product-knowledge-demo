@@ -9,6 +9,7 @@ import ProductDetail from "./pages/ProductDetail";
 import SEOView from "./pages/SEOView";
 import AEOView from "./pages/AEOView";
 import AIKnowledgeView from "./pages/AIKnowledgeView";
+import CarAudioFitment from "./pages/CarAudioFitment";
 import Header from "./components/Header";
 
 function Router() {
@@ -19,8 +20,8 @@ function Router() {
       <Route path={"/seo"} component={SEOView} />
       <Route path={"/aeo"} component={AEOView} />
       <Route path={"/ai-knowledge"} component={AIKnowledgeView} />
+      <Route path={"/car-audio-fitment"} component={CarAudioFitment} />
       <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>
   );
