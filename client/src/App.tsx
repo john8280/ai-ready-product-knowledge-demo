@@ -1,7 +1,8 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Route, Router as WouterRouter, Switch } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
@@ -12,7 +13,7 @@ import AIKnowledgeView from "./pages/AIKnowledgeView";
 import CarAudioFitment from "./pages/CarAudioFitment";
 import Header from "./components/Header";
 
-function Router() {
+function AppRoutes() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
@@ -33,12 +34,14 @@ function App() {
       <ThemeProvider defaultTheme="dark">
         <TooltipProvider>
           <Toaster />
-          <div className="min-h-screen bg-background text-foreground flex flex-col">
-            <Header />
-            <main className="flex-1">
-              <Router />
-            </main>
-          </div>
+          <WouterRouter hook={useHashLocation}>
+            <div className="min-h-screen bg-background text-foreground flex flex-col">
+              <Header />
+              <main className="flex-1">
+                <AppRoutes />
+              </main>
+            </div>
+          </WouterRouter>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
