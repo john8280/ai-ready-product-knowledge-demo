@@ -16,32 +16,25 @@ export default function Header() {
 
         <nav className="hidden md:flex items-center gap-1">
           <Link href="/">
-            <Button variant="ghost" size="sm">
-              Products
-            </Button>
+            <Button variant="ghost" size="sm">Products</Button>
           </Link>
           <Link href="/seo">
-            <Button variant="ghost" size="sm">
-              SEO View
-            </Button>
+            <Button variant="ghost" size="sm">SEO View</Button>
           </Link>
           <Link href="/aeo">
-            <Button variant="ghost" size="sm">
-              AEO View
-            </Button>
+            <Button variant="ghost" size="sm">AEO View</Button>
           </Link>
           <Link href="/ai-knowledge">
-            <Button variant="ghost" size="sm">
-              AI Knowledge
-            </Button>
+            <Button variant="ghost" size="sm">AI Knowledge</Button>
+          </Link>
+          <Link href="/car-audio-fitment">
+            <Button variant="ghost" size="sm">Car Audio Case Study</Button>
           </Link>
         </nav>
 
         <div className="flex md:hidden">
-          <Link href="/ai-knowledge">
-            <Button variant="outline" size="sm">
-              Explore
-            </Button>
+          <Link href="/car-audio-fitment">
+            <Button variant="outline" size="sm">Case Study</Button>
           </Link>
         </div>
       </div>
